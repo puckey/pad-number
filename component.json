@@ -1,0 +1,13 @@
+{
+  "name": "pad-number",
+  "repo": "puckey/pad-number",
+  "description": "Create a string representation of a number with leading zeroes.",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {},
+  "development": {},
+  "license": "MIT",
+  "scripts": [
+    "index.js"
+  ]
+}
