@@ -3,7 +3,7 @@ function pad(number, width, padding) {
   number = number + '';
   var length = number.length;
   return !width || length >= width
-		? number + ''
+		? '' + number
 		: new Array(width - length + 1).join(padding) + number;
 }
 
