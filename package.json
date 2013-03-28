@@ -1,0 +1,28 @@
+{
+  "author": {
+    "name": "Jonathan Puckey",
+    "url": "http://studiomoniker.com"
+  },
+  "name": "pad-number",
+  "description": " convert a number to a padded string with n leading zeroes",
+  "keywords": [
+    "utility"
+  ],
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/puckey/pad-number.git"
+  },
+  "main": "./index.js",
+  "engines": {
+    "node": ">= 0.6"
+  },
+  "readmeFilename": "Readme.md",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "*"
+  },
+  "scripts": {
+    "test": "mocha"
+  }
+}
