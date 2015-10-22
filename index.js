@@ -1,3 +1,10 @@
+/**
+ * @module pad-number
+ * @version 0.0.1
+ * @author Jonathan Puckey
+ * @license MIT
+ */
+
 'use strict';
 
 /**
