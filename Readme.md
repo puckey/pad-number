@@ -1,12 +1,12 @@
 # pad-number
 
-  Component: convert a number to a string with n leading zeroes.
+  Convert a number to a string with n leading zeroes.
 
   Using @Pointy's [answer](http://stackoverflow.com/a/10073788) on Stackoverflow.
 
 ## Installation
 
-    $ component install puckey/pad-number
+    $ npm install pad-number
 
 ## API
    
