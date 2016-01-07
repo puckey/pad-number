@@ -2,6 +2,10 @@ var assert = require('assert');
 var pad = require('../index');
 
 describe('pad', function(){
+	it('passing 0 should work', function(){
+		assert.equal('0000', pad(0, 4));
+	});
+
 	it('should return a padded version of the number as a string using leading zeroes', function(){
 		assert.equal('0010', pad(10, 4));
 	});
