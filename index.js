@@ -18,9 +18,6 @@
  */
 function pad(number, width, padding) {
 
-  // Throw exception if no number has been provided.
-  if (!number) throw new Error('Missing first argument');
-
   // Set padding character.
   padding = padding || '0';
 
