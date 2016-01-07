@@ -17,17 +17,17 @@
  * @returns {string}
  */
 function pad(number, width, padding) {
-
-  // Set padding character.
-  padding = padding || '0';
-
   // Convert number to string.
-  number = number + '';
+  var string = number.toString();
 
   // Return either the original number as string,
   // or the number with leading padding characters.
-  if (!width || number.length >= width) return number;
-  else return new Array(width - number.length + 1).join(padding) + number;
+  if (!width || string.length >= width) {
+    return string;
+  }
+
+  var leadingCharacters = new Array(width - string.length + 1).join(padding || '0');
+  return leadingCharacters + string;
 }
 
 module.exports = pad;
